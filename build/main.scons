@@ -1,8 +1,8 @@
 
 
 env = Environment(CC = 'gcc',
-		  CPPPATH=['/home/karthik/Karthik/paho.mqtt.c/src'],
-		  LIBPATH=['/home/karthik/Karthik/paho.mqtt.c/build/output'],
+		  CPPPATH=['<path_to_paho>/src'],
+		  LIBPATH=['path_to_paho>/build/output'],
 	          LIBS=['paho-mqtt3c'])
 env.Append(CXXFLAGS='-g')
 
