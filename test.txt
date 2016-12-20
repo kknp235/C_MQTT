@@ -1,0 +1,12 @@
+{
+  "response": "scan",
+  "code": "101",
+  "resources": [
+    {
+      "id": "31313131-3131-3131-3131-313131313131",
+      "ruri": "/smartron/light",
+      "rt": "oic.core.light",
+      "if": "oic.if.baseline"
+    }
+  ]
+}

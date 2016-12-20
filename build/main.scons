@@ -1,0 +1,11 @@
+
+
+env = Environment(CC = 'gcc',
+		  CPPPATH=['/home/karthik/Karthik/paho.mqtt.c/src'],
+		  LIBPATH=['/home/karthik/Karthik/paho.mqtt.c/build/output'],
+	          LIBS=['paho-mqtt3c'])
+env.Append(CXXFLAGS='-g')
+
+env.Program('paho_pub', source = 'paho_pub.c')
+env.Program('pub_sub', source = 'pub_sub.c')
+env.Program('paho_sub', source = 'paho_sub.c')
