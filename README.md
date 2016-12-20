@@ -6,10 +6,10 @@ created by @KarthikeyanPrakash (karthikeyanprakash@outlook.com)
 =======================================================================
 
 Source directory 	
-- <paho_library>/src/..
+- \<paho_library>/src/..
 
 build directory	
-- <paho_library>/build/..
+- \<paho_library>/build/..
 
 =======================================================================
 ## To build sample programs
@@ -17,9 +17,9 @@ build directory
 **Donwload paho.mqtt.c source library in you system**
 
 - To Donwload go to [Github location for paho c library] (https://github.com/eclipse/paho.mqtt.c)
-- Enter the library path in main.scons file at <paho_library>/build/main.scons
-- Go to <paho_library>/ directory and run scons
-- Built examples can be found in <paho_library>/build/
+- Enter the library path in main.scons file at \<paho_library>/build/main.scons
+- Go to \<paho_library_root>/directory and run scons
+- Built examples can be found in \<paho_library>/build/
 
 =======================================================================
 ## Run Sample Programs
