@@ -5,8 +5,10 @@ created by @KarthikeyanPrakash (karthikeyanprakash@outlook.com)
 
 =======================================================================
 
-Source directory 	- <paho_library>/src/..
-build directory		- <paho_library>/build/..
+Source directory 	
+- <paho_library>/src/..
+build directory	
+- <paho_library>/build/..
 
 =======================================================================
 ## To build sample programs
