@@ -1,4 +1,4 @@
-# paho_library
+# C_MQTT
 Paho_library to publish, subscribe and do both in same client with MQTT
 
 created by @KarthikeyanPrakash (karthikeyanprakash@outlook.com)
